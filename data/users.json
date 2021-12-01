@@ -1,0 +1,76 @@
+{
+  "candidates": [
+    {
+      "email": "lqaqw4r@hehe.com",
+      "password": "hjaniq255",
+      "id": 1
+    },
+    {
+      "email": "wyhlfmu@hehe.com",
+      "password": "zlw2x94m4",
+      "id": 2
+    },
+    {
+      "id": 3
+    },
+    {
+      "email": "hzmfpvw@hehe.com",
+      "password": "s4pr07pgs",
+      "id": 4
+    },
+    {
+      "email": "6oss1bw@hehe.com",
+      "password": "btl5xo5jd",
+      "id": 5
+    },
+    {
+      "email": "i2xe8cj@hehe.com",
+      "password": "3vxhgst15",
+      "id": 6
+    },
+    {
+      "email": "5ub8kwj@hehe.com",
+      "password": "1hc3mujyy",
+      "id": 7
+    }
+  ],
+  "users": [
+    {
+      "email": "rredouane348@gmail.com",
+      "age": 324234,
+      "id": 1
+    },
+    {
+      "email": "rredouane348@gmail.com",
+      "age": 324234,
+      "id": 2
+    },
+    {
+      "email": "anasel340@gmail.com",
+      "age": 324234,
+      "id": 3
+    },
+    {
+      "email": "anas@gmail.com",
+      "age": 324234,
+      "id": 4
+    },
+    {
+      "email": "sadaasd@gmail.com",
+      "age": 324234,
+      "id": 5
+    },
+    {
+      "email": "anas@gmail.com",
+      "age": 324234,
+      "id": 6
+    }
+  ],
+  "admin": [
+    {
+      "email": "rredouane348@gmail.com",
+      "password": 66666,
+      "id": 69
+    }
+  ]
+}
