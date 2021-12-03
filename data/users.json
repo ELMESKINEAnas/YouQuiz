@@ -1,75 +1,231 @@
 {
   "candidates": [
     {
-      "email": "lqaqw4r@hehe.com",
-      "password": "hjaniq255",
-      "id": 1
+      "AdministrationScore": 3,
+      "email": "redouane.bouabana@gmail.com",
+      "age": "23",
+      "genEmail": "f57lhe5n@youQuiz.com",
+      "genPassword": "wl5d72k",
+      "date": "Fri Dec 03 2021",
+      "id": 1,
+      "Motivation": "cxzczxc",
+      "seriousGames": "zxczxc"
     },
     {
-      "email": "wyhlfmu@hehe.com",
-      "password": "zlw2x94m4",
-      "id": 2
+      "AdministrationScore": 3,
+      "email": "redouane.bouabana@gmail.com",
+      "age": "24",
+      "genEmail": "qwkop40c@youQuiz.com",
+      "genPassword": "5ushkoh",
+      "date": "Fri Dec 03 2021",
+      "id": 2,
+      "Motivation": "12",
+      "seriousGames": "12"
     },
     {
-      "id": 3
+      "email": "redouane.bouabana@gmail.com",
+      "age": "22",
+      "genEmail": "8sb305oe@youQuiz.com",
+      "genPassword": "n5wyen7",
+      "date": "Fri Dec 03 2021",
+      "id": 3,
+      "score": 5
     },
     {
-      "email": "hzmfpvw@hehe.com",
-      "password": "s4pr07pgs",
-      "id": 4
-    },
-    {
-      "email": "6oss1bw@hehe.com",
-      "password": "btl5xo5jd",
-      "id": 5
-    },
-    {
-      "email": "i2xe8cj@hehe.com",
-      "password": "3vxhgst15",
-      "id": 6
-    },
-    {
-      "email": "5ub8kwj@hehe.com",
-      "password": "1hc3mujyy",
-      "id": 7
+      "email": "redouane.bouabana@gmail.com",
+      "age": "22",
+      "genEmail": "8sb305oe@youQuiz.com",
+      "genPassword": "n5wyen7",
+      "date": "Fri Dec 03 2021",
+      "id": 3,
+      "score": 5
     }
   ],
   "users": [
     {
-      "email": "rredouane348@gmail.com",
-      "age": 324234,
+      "email": "redouane.bouabana@gmail.com",
+      "age": "23",
       "id": 1
     },
     {
-      "email": "rredouane348@gmail.com",
-      "age": 324234,
+      "email": "redouane.bouabana@gmail.com",
+      "age": "24",
       "id": 2
     },
     {
-      "email": "anasel340@gmail.com",
-      "age": 324234,
+      "email": "redouane.bouabana@gmail.com",
+      "age": "22",
       "id": 3
+    }
+  ],
+  "administrationQuestions": [
+    {
+      "question": "Inside which HTML element do we put the JavaScript?",
+      "answers": [
+        {
+          "text": "<scripting>",
+          "correct": true
+        },
+        {
+          "text": "<javascript>",
+          "correct": false
+        },
+        {
+          "text": "<js>",
+          "correct": false
+        },
+        {
+          "text": "<script>",
+          "correct": false
+        }
+      ]
     },
     {
-      "email": "anas@gmail.com",
-      "age": 324234,
-      "id": 4
+      "question": "What is the correct JavaScript syntax to change the content of this HTML element? <p id='demo'>This is a demonstration.</p>",
+      "answers": [
+        {
+          "text": "document.getElementByName('p').innerHTML = 'Hello World!'",
+          "correct": true
+        },
+        {
+          "text": "<document.getElement('p').innerHTML = 'Hello World!>'",
+          "correct": false
+        },
+        {
+          "text": "document.getElementById('demo').innerHTML = 'Hello World!'",
+          "correct": false
+        },
+        {
+          "text": "#demo.innerHTML = 'Hello World!'",
+          "correct": false
+        }
+      ]
     },
     {
-      "email": "sadaasd@gmail.com",
-      "age": 324234,
-      "id": 5
+      "question": "How do you create a function in JavaScript?",
+      "answers": [
+        {
+          "text": "function myFunction()",
+          "correct": true
+        },
+        {
+          "text": "function:myFunction()",
+          "correct": false
+        },
+        {
+          "text": "function = myFunction()",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "question": "Inside which HTML element do we put the JavaScript?",
+      "answers": [
+        {
+          "text": "<scripting>",
+          "correct": true
+        },
+        {
+          "text": "<javascript>",
+          "correct": false
+        },
+        {
+          "text": "<js>",
+          "correct": false
+        },
+        {
+          "text": "<script>",
+          "correct": false
+        }
+      ]
     },
     {
-      "email": "anas@gmail.com",
-      "age": 324234,
-      "id": 6
+      "question": "What is the correct JavaScript syntax to change the content of this HTML element? <p id='demo'>This is a demonstration.</p>",
+      "answers": [
+        {
+          "text": "document.getElementByName('p').innerHTML = 'Hello World!'",
+          "correct": true
+        },
+        {
+          "text": "<document.getElement('p').innerHTML = 'Hello World!>'",
+          "correct": false
+        },
+        {
+          "text": "document.getElementById('demo').innerHTML = 'Hello World!'",
+          "correct": false
+        },
+        {
+          "text": "#demo.innerHTML = 'Hello World!'",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "How do you create a function in JavaScript?",
+      "answers": [
+        {
+          "text": "function myFunction()",
+          "correct": true
+        },
+        {
+          "text": "function:myFunction()",
+          "correct": false
+        },
+        {
+          "text": "function = myFunction()",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "How to write an IF statement in JavaScript?",
+      "answers": [
+        {
+          "text": "if(i == 5)",
+          "correct": true
+        },
+        {
+          "text": "if i == 5",
+          "correct": false
+        },
+        {
+          "text": "if i == 5 then",
+          "correct": false
+        },
+        {
+          "text": "if i = 5 then",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "How to write an IF statement in JavaScript?",
+      "answers": [
+        {
+          "text": "if(i == 5)",
+          "correct": true
+        },
+        {
+          "text": "if i == 5",
+          "correct": false
+        },
+        {
+          "text": "if i == 5 then",
+          "correct": false
+        },
+        {
+          "text": "if i = 5 then",
+          "correct": false
+        }
+      ]
     }
   ],
   "admin": [
     {
       "email": "rredouane348@gmail.com",
-      "password": 66666,
+      "password": 666,
       "id": 69
     }
   ]

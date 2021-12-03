@@ -1,53 +1,34 @@
-const form = document.querySelector(".form");
+const loginForm = document.querySelector(".form");
+const badCreds = document.querySelector(".bad");
+// const candidates = JSON.parse(sessionStorage.getItem("candidates"));
+let candidatesData = [];
+// const currentUser = JSON.parse(sessionStorage.getItem('currentUser'))
 
-class Users {
-  constructor(email, age) {
-    this.email = email;
-    this.age = age;
-  }
-  getUser = () => {
-    return `hello user ${this.email}`;
-  };
-}
-class candidates {
-  constructor(email, password) {
-    this.email = email;
-    this.password = password;
-  }
-}
-// const red = new User('redone@gmail.com' , )
-form.addEventListener("submit", (e) => {
+
+
+loginForm.addEventListener("submit", (e) => {
   e.preventDefault();
-  const email = form.email.value;
-  //   const currentDay  = new Date().toDateString()
-  const emailCandidate = `${Math.random()
-    .toString(36)
-    .substr(3, 7)}@hehe.com`;
-  const passwordCandidate = `${Math.random().toString(36).substr(2, 9)}`;
-  //   console.log(`email : ${Math.random().toString(36).substr(3, 7)}@hehe.com`);
-  //   console.log(`password : ${Math.random().toString(36).substr(2, 9)}`);
-  //   console.log(currentDay);
-  const user = new Users(email, 324234);
-  fetch("http://localhost:3000/users/", {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify(user),
+
+//   returnLast(candidatesData);
+
+  candidatesData.map((el) => {
+    if (
+      loginForm.email.value == el.genEmail &&
+      loginForm.password.value == el.genPassword
+    ) {
+      badCreds.style.display = "none";
+      window.location.replace("./testPage.html");
+      
+    } else {
+      badCreds.classList.remove("hidden");
+    }
   });
-  const candidate = new candidates(emailCandidate, passwordCandidate);
-  fetch("http://localhost:3000/candidates/", {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify(candidate),
-  });
-  alert(`email : ${emailCandidate}
-  password : ${passwordCandidate}
-  `);
 });
 
-fetch("http://localhost:3000/users/")
-  .then((response) => response.json())
-  .then((data) => console.log(data));
 
-fetch("http://localhost:3000/candidates/")
+const CandidatePort = "http://localhost:3000/candidates/";
+fetch(CandidatePort)
   .then((response) => response.json())
-  .then((data) => console.log(data));
+  .then((data) => candidatesData.push(...data));
+
+
