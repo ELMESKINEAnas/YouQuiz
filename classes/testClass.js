@@ -92,7 +92,19 @@ class Quiz {
       ...user,
       ...userScore,
     };
-    updateCandidate(merge, user.id);
+    // updateCandidate(merge, user.id);
+    console.log(user.id);
+  
+      fetch(`http://localhost:3000/candidates/${user.id}`, {
+        method: "PUT",
+        headers: { "content-Type": "application/json" },
+        body: JSON.stringify(merge),
+      }).then(() => {
+        window.location.replace("./testMotivation.html");
+      })
+
+
+   
   }
 
   // -- showing question and answers from questions array
